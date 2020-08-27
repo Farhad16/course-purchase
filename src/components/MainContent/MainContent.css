@@ -1,0 +1,15 @@
+.main-content{
+    display: flex;
+}
+
+.courses{
+    width: 60%;
+}
+
+.cart{
+    width: 20%;
+}
+
+.sidebar{
+    width: 20%;
+}

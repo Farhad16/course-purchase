@@ -1,0 +1,38 @@
+
+.profilePic img{
+    margin-top: 5px;
+    width: 200px;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+.courseDetails{
+    margin-bottom: 20px;
+    background-color: #e8ebee;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+h3{
+    cursor: pointer;
+}
+h3:hover{
+    text-decoration: underline;
+}
+
+.details{
+    padding-left: 20px;
+}
+.details Button{
+    padding: 5px 10px;
+    font-weight: 500px;
+}
+.details span{
+    font-weight: 600;
+}
+.consistancy{
+    font-weight: 900px;
+}
