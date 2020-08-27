@@ -1,3 +1,11 @@
 .cart{
     margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.cart-icon{
+    color: rgb(241, 168, 9);
+}
+.cart span{
+    font-weight: bold;
 }

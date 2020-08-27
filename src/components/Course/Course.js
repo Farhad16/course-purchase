@@ -5,7 +5,7 @@ import '../../components/Assets/Css/bootstrap.min.css'
 
 const Course = (props) => {
     const { name, img, price, instructor } = props.course;
-
+    const handleAddCourse = props.handleAddCourse;
     return (
         <div className="courseDetails">
             <div className="profilePic">
@@ -15,7 +15,7 @@ const Course = (props) => {
                 <h3>{name}</h3>
                 <p>$<span>{price}</span></p>
                 <p>Instructor  <span>{instructor}</span></p>
-                <Button variant="primary">Enroll Now</Button>{' '}
+                <Button variant="primary" onClick={() => handleAddCourse(props.course)}>Enroll Now</Button>{' '}
             </div>
         </div>
     );
