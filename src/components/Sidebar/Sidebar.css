@@ -1,8 +1,32 @@
-.sidebar{
-    background-color: #E8EBEE;
-    height: 100%;
+ .sidebarStyle{
     margin-top: 10px;
     border-radius: 5px;
     box-sizing: border-box;
     margin-left: 10px;
+    width: 95%;
+
+}
+
+.catagory img{
+    width: 80%;
+    height: 150px;
+    text-align: center;
+    border-radius: 5px;
+    border: 5px solid white;
+}
+
+.catagory{
+    width: 95%;
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    background-color: #E8EBEE;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.catagory p{
+    font-weight: 800px;
+    padding: 10px;
 }
